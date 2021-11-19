@@ -8,18 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		CE31757E2746FB130041C85D /* BeerSearchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE31757D2746FB130041C85D /* BeerSearchApp.swift */; };
-		CE3175802746FB130041C85D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE31757F2746FB130041C85D /* ContentView.swift */; };
+		CE3175802746FB130041C85D /* BeerSearchListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE31757F2746FB130041C85D /* BeerSearchListView.swift */; };
 		CE3175822746FB140041C85D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3175812746FB140041C85D /* Assets.xcassets */; };
 		CE3175852746FB140041C85D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3175842746FB140041C85D /* Preview Assets.xcassets */; };
+		CE3175932746FB290041C85D /* ReduxStoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE31758E2746FB290041C85D /* ReduxStoreView.swift */; };
+		CE3175942746FB290041C85D /* ReduxState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE31758F2746FB290041C85D /* ReduxState.swift */; };
+		CE3175952746FB290041C85D /* ReduxReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3175902746FB290041C85D /* ReduxReducer.swift */; };
+		CE3175962746FB290041C85D /* ReduxAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3175912746FB290041C85D /* ReduxAction.swift */; };
+		CE3175972746FB290041C85D /* ReduxStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3175922746FB290041C85D /* ReduxStore.swift */; };
+		CE3175A2274701BB0041C85D /* BeerSearchState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3175A1274701BB0041C85D /* BeerSearchState.swift */; };
+		CE3175A62747020A0041C85D /* BeerSearchAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3175A52747020A0041C85D /* BeerSearchAction.swift */; };
+		CE3175A9274702230041C85D /* BeerSearchReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3175A8274702230041C85D /* BeerSearchReducer.swift */; };
+		CE3175AC274702E10041C85D /* BeerSearchMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3175AB274702E10041C85D /* BeerSearchMiddleware.swift */; };
+		CEC5FA5327471F2F00DC357C /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC5FA5227471F2F00DC357C /* SearchBar.swift */; };
+		CEC5FA5727471F4F00DC357C /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC5FA5627471F4F00DC357C /* ImageView.swift */; };
+		CEC5FA5C27471FCA00DC357C /* Binding+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC5FA5B27471FCA00DC357C /* Binding+Utils.swift */; };
+		CEC5FA6027472BA900DC357C /* BeerDeatailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC5FA5F27472BA900DC357C /* BeerDeatailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE31757A2746FB130041C85D /* BeerSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeerSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE31757D2746FB130041C85D /* BeerSearchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerSearchApp.swift; sourceTree = "<group>"; };
-		CE31757F2746FB130041C85D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE31757F2746FB130041C85D /* BeerSearchListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerSearchListView.swift; sourceTree = "<group>"; };
 		CE3175812746FB140041C85D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE3175842746FB140041C85D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE3175862746FB140041C85D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE31758E2746FB290041C85D /* ReduxStoreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReduxStoreView.swift; sourceTree = "<group>"; };
+		CE31758F2746FB290041C85D /* ReduxState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReduxState.swift; sourceTree = "<group>"; };
+		CE3175902746FB290041C85D /* ReduxReducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReduxReducer.swift; sourceTree = "<group>"; };
+		CE3175912746FB290041C85D /* ReduxAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReduxAction.swift; sourceTree = "<group>"; };
+		CE3175922746FB290041C85D /* ReduxStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReduxStore.swift; sourceTree = "<group>"; };
+		CE3175A1274701BB0041C85D /* BeerSearchState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerSearchState.swift; sourceTree = "<group>"; };
+		CE3175A52747020A0041C85D /* BeerSearchAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerSearchAction.swift; sourceTree = "<group>"; };
+		CE3175A8274702230041C85D /* BeerSearchReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerSearchReducer.swift; sourceTree = "<group>"; };
+		CE3175AB274702E10041C85D /* BeerSearchMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerSearchMiddleware.swift; sourceTree = "<group>"; };
+		CEC5FA5227471F2F00DC357C /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		CEC5FA5627471F4F00DC357C /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		CEC5FA5B27471FCA00DC357C /* Binding+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding+Utils.swift"; sourceTree = "<group>"; };
+		CEC5FA5F27472BA900DC357C /* BeerDeatailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerDeatailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +78,11 @@
 		CE31757C2746FB130041C85D /* BeerSearch */ = {
 			isa = PBXGroup;
 			children = (
+				CEC5FA5A27471F9A00DC357C /* Util */,
+				CEC5FA5127471F2600DC357C /* UI */,
+				CE31758D2746FB290041C85D /* Redux */,
 				CE31757D2746FB130041C85D /* BeerSearchApp.swift */,
-				CE31757F2746FB130041C85D /* ContentView.swift */,
+				CE31759A2747017E0041C85D /* List */,
 				CE3175812746FB140041C85D /* Assets.xcassets */,
 				CE3175862746FB140041C85D /* Info.plist */,
 				CE3175832746FB140041C85D /* Preview Content */,
@@ -67,6 +96,80 @@
 				CE3175842746FB140041C85D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE31758D2746FB290041C85D /* Redux */ = {
+			isa = PBXGroup;
+			children = (
+				CE31758E2746FB290041C85D /* ReduxStoreView.swift */,
+				CE31758F2746FB290041C85D /* ReduxState.swift */,
+				CE3175902746FB290041C85D /* ReduxReducer.swift */,
+				CE3175912746FB290041C85D /* ReduxAction.swift */,
+				CE3175922746FB290041C85D /* ReduxStore.swift */,
+			);
+			path = Redux;
+			sourceTree = "<group>";
+		};
+		CE31759A2747017E0041C85D /* List */ = {
+			isa = PBXGroup;
+			children = (
+				CE3175A02747019F0041C85D /* Reducer */,
+				CE31759F2747019A0041C85D /* Action */,
+				CE31759E274701960041C85D /* State */,
+				CE31759C2747018F0041C85D /* View */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		CE31759C2747018F0041C85D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE31757F2746FB130041C85D /* BeerSearchListView.swift */,
+				CEC5FA5F27472BA900DC357C /* BeerDeatailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE31759E274701960041C85D /* State */ = {
+			isa = PBXGroup;
+			children = (
+				CE3175A1274701BB0041C85D /* BeerSearchState.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		CE31759F2747019A0041C85D /* Action */ = {
+			isa = PBXGroup;
+			children = (
+				CE3175A52747020A0041C85D /* BeerSearchAction.swift */,
+				CE3175AB274702E10041C85D /* BeerSearchMiddleware.swift */,
+			);
+			path = Action;
+			sourceTree = "<group>";
+		};
+		CE3175A02747019F0041C85D /* Reducer */ = {
+			isa = PBXGroup;
+			children = (
+				CE3175A8274702230041C85D /* BeerSearchReducer.swift */,
+			);
+			path = Reducer;
+			sourceTree = "<group>";
+		};
+		CEC5FA5127471F2600DC357C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				CEC5FA5227471F2F00DC357C /* SearchBar.swift */,
+				CEC5FA5627471F4F00DC357C /* ImageView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		CEC5FA5A27471F9A00DC357C /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				CEC5FA5B27471FCA00DC357C /* Binding+Utils.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +241,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE3175802746FB130041C85D /* ContentView.swift in Sources */,
+				CE3175962746FB290041C85D /* ReduxAction.swift in Sources */,
+				CE3175942746FB290041C85D /* ReduxState.swift in Sources */,
+				CE3175AC274702E10041C85D /* BeerSearchMiddleware.swift in Sources */,
+				CEC5FA5C27471FCA00DC357C /* Binding+Utils.swift in Sources */,
+				CE3175972746FB290041C85D /* ReduxStore.swift in Sources */,
+				CE3175802746FB130041C85D /* BeerSearchListView.swift in Sources */,
+				CEC5FA5327471F2F00DC357C /* SearchBar.swift in Sources */,
+				CE3175952746FB290041C85D /* ReduxReducer.swift in Sources */,
+				CE3175A62747020A0041C85D /* BeerSearchAction.swift in Sources */,
+				CEC5FA6027472BA900DC357C /* BeerDeatailView.swift in Sources */,
+				CE3175A9274702230041C85D /* BeerSearchReducer.swift in Sources */,
+				CE3175A2274701BB0041C85D /* BeerSearchState.swift in Sources */,
 				CE31757E2746FB130041C85D /* BeerSearchApp.swift in Sources */,
+				CE3175932746FB290041C85D /* ReduxStoreView.swift in Sources */,
+				CEC5FA5727471F4F00DC357C /* ImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,7 +11,9 @@ import SwiftUI
 struct BeerSearchApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            BeerSearchListView(store: .init(state: BeerSearchState(),
+                                            reducer: BeerSearchReducer(),
+                                            middlewares: [BeerSearchMiddleware()]))
         }
     }
 }
