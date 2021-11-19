@@ -44,3 +44,10 @@ extension View {
         return modifier(ResignKeyboardOnDragGesture())
     }
 }
+
+struct CacheImage {
+    
+    public static let shared: CacheImage = .init()
+    public let cache = NSCache<NSString, UIImage>()
+    
+}

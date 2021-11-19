@@ -8,13 +8,6 @@
 import SwiftUI
 import Combine
 
-struct CacheImage {
-    
-    public static let shared: CacheImage = .init()
-    public let cache = NSCache<NSString, UIImage>()
-    
-}
-
 struct BeerSearchListView: ReduxStoreView {
     
     @ObservedObject private(set) var store: ReduxStore<BeerSearchState>
