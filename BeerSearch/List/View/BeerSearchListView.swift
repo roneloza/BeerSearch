@@ -55,7 +55,7 @@ struct BeerSearchListView: ReduxStoreView {
         }
     }
     
-    private func serachBeers() {
+    private func searchBeers() {
         self.store.state.isLoading = true
         self.store.dispatch(BeerSearchAction.getBeers(food: self.store.state.searchText,
                                                       page: self.store.state.page,
@@ -65,7 +65,7 @@ struct BeerSearchListView: ReduxStoreView {
     private func getBeers() {
         if !self.store.state.isLoading {
             self.store.state.page = 1
-            self.serachBeers()
+            self.searchBeers()
         }
     }
     
@@ -74,7 +74,7 @@ struct BeerSearchListView: ReduxStoreView {
            last.id == item.id,
            !self.store.state.isLoading {
             self.store.state.page += 1
-            self.serachBeers()
+            self.searchBeers()
         }
     }
     
